@@ -1,0 +1,138 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+}
+.margin{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header{
+    display: flex;
+    padding: 7%;
+}
+.h-links{
+    margin-left: 40%;
+    margin-top: 2%;
+    width: 500px;
+    display: flex;
+}
+.h-links .font-1{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.h-link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 4%;
+}
+/* this is the start of preebook  */
+
+.preebook{
+     display: flex;
+     margin-bottom: 10%;
+}
+.p-photo{
+    width: 50%;
+}.p-photo img{
+    width: 100%;
+}
+.p-text{
+    width: 50%;
+
+}
+.p-text h1{
+    font-size: 50px;
+}
+.preebook a{
+    text-decoration: none;
+    padding: 10px 24px;
+    background-color:#E02C6D ;
+    color: white;
+    border-radius: 41px;
+}
+/* this is start of logos  */
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10% ;
+}
+.popular{
+    text-align: center;
+    margin-bottom: 10%;
+}
+ /* this is the start of collection  */
+
+ .products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+    margin-bottom: 10%;
+ }
+ .product{
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
+ }
+ .product .star{
+    color: #FB8200;
+ }
+ .product-link{
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+ }
+
+ /* this is the start of Featured products  */
+
+ .products-2{
+        display: flex;
+        margin-top: 10%;
+        margin-bottom: 10%;
+ }
+ .pro-img{
+    width: 40%;
+ }
+ .pro-img img{
+        width: 100%;
+ }
+ .pro-txt {
+    width: 60%;
+    margin-left: 5%;
+ }
+ .pro-txt h1{
+    font-size: 35px;
+ }
+ .pro-txt a{
+    text-decoration: none;
+    padding: 10px 24px;
+    gap: 8px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 20px;
+    border-radius: 2px;
+ }
+/* this is the start of the footer  */
+
+footer{
+    background-color:  #090116;
+    color: white;
+    text-align: center;
+    height: 300px;
+    padding-top: 5%;
+}
+footer p{
+    font-size: 15px;
+}
+.f-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.f-icon{
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 7px 10px;
+    background-color: gray;
+    border-radius: 100% ;
+}
