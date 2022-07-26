@@ -2,6 +2,10 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: antiquewhite;
 }
+.hiden{
+    display: none;
+
+}
 .margin{
     margin-left: 10%;
     margin-right: 10%;
@@ -17,6 +21,10 @@ header{
     display: flex;
 }
 .h-links .font-1{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.h-links .font-2{
     margin-left: 4%;
     margin-top: 1%;
 }
@@ -54,9 +62,20 @@ header{
 /* this is start of logos  */
 .logos{
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 10% ;
-}
+    justify-content: space-between;
+ }
+ .logos-1{
+     display: flex;
+     padding: 5px;
+     width: 50%;
+     justify-content: space-evenly;
+ }
+ .logos-1 .logo-1{
+     margin-right: 5%;
+ }
+ .logos-1 .logo-2{
+     margin-left: 5%;
+ }
 .popular{
     text-align: center;
     margin-bottom: 10%;
@@ -135,4 +154,60 @@ footer p{
     padding: 7px 10px;
     background-color: gray;
     border-radius: 100% ;
+}
+/* this is start of mobile phone midea  */
+@media only  screen and (max-width:688px) {
+
+   header .h-links{
+    display: none;
+   }
+    .h-text h3{
+    text-align: center;
+   }
+   .h-link .font-2{
+    visibility:visible;
+   }
+   .preebook{
+    display:flex;
+    flex-direction: column-reverse;
+   }
+   .p-photo{
+    width: 100%;
+   }
+    .p-text{
+    width: 100%;
+}.logos{
+    display: block;
+    text-align: center;
+    width: 90%;
+    
+}
+   .logos-1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10%;
+    
+   }
+   .logo-1.logo-2{
+    margin-right: 0%;
+   }
+   .products{
+    display: block;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+   }
+   .products-2{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .pro-img{
+    width: 100%;
+   } 
+   .pro-txt{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10%;
+   }
 }
