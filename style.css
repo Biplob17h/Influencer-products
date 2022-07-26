@@ -44,6 +44,10 @@ header{
     width: 50%;
 }.p-photo img{
     width: 100%;
+   
+    box-shadow: 0px 0px 2px #6e6e6e;
+    border-radius: 50%;
+    
 }
 .p-text{
     width: 50%;
@@ -62,13 +66,18 @@ header{
 /* this is start of logos  */
 .logos{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -.5px 1px #6e6e6e;
+    gap: 10px;
  }
  .logos-1{
      display: flex;
      padding: 5px;
-     width: 50%;
-     justify-content: space-evenly;
+     width: 37%;
+     justify-content:center;
+     gap: 10px;
+     align-items: center;
  }
  .logos-1 .logo-1{
      margin-right: 5%;
@@ -180,6 +189,7 @@ footer p{
     display: block;
     text-align: center;
     width: 90%;
+    box-shadow: 0px 0px 0px;
     
 }
    .logos-1{
